@@ -1,0 +1,28 @@
+{
+  "database": "sqlserver://ILMOON/ShopChatbotDemo",
+  "products": 200,
+  "faqs": 4,
+  "stock_min": 2,
+  "stock_max": 999,
+  "stock_persisted_after_reload": true,
+  "ssms_script_preserved_existing_data": true,
+  "original_rag_records": 204,
+  "retrieval_sources": [
+    "sql:products/DEMO-187",
+    "sql:products/DEMO-184",
+    "sql:products/DEMO-154",
+    "sql:products/DEMO-159",
+    "sql:products/DEMO-044",
+    "sql:products/DEMO-166",
+    "sql:products/DEMO-135",
+    "sql:products/DEMO-177",
+    "sql:products/DEMO-168",
+    "sql:products/DEMO-049",
+    "sql:products/DEMO-170",
+    "sql:products/DEMO-106"
+  ],
+  "customer_ui_pagination": true,
+  "search_last_sku": true,
+  "staff_ui": true,
+  "paid_model_calls": 0
+}

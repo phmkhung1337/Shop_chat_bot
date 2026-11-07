@@ -1,0 +1,29 @@
+{
+  "scope": "Real provider/E5/Chroma using synthetic catalog only; no public app and no real-shop approval",
+  "synthetic": true,
+  "model": "gpt-oss:20b",
+  "embedding": "intfloat/multilingual-e5-small",
+  "previous_probe": {
+    "model_extraction_fixtures_passed": 3,
+    "windows_temp_cleanup_warning": true
+  },
+  "status": "passed",
+  "model_calls": 1,
+  "record_count": 17,
+  "product_ids": [
+    "BK-001",
+    "BK-004"
+  ],
+  "criteria": {
+    "category": "Bánh",
+    "budget_vnd": 100000,
+    "budget_scope": "unit",
+    "avoid_allergens": [
+      "milk"
+    ],
+    "budget_inclusive": false,
+    "packaging": "hộp"
+  },
+  "duplicate_request_reused": true,
+  "duration_seconds": 64.22
+}

@@ -1,0 +1,89 @@
+{
+  "demo": true,
+  "approved": true,
+  "version": "demo-faq-1",
+  "faqs": [
+    {
+      "id": "FAQ-SHIP",
+      "question": "Phí giao hàng",
+      "aliases": [
+        "giao hàng",
+        "phí ship",
+        "ship",
+        "miễn phí"
+      ],
+      "answer": [
+        "Chính sách DEMO: đơn từ 300.000đ được miễn phí giao hàng trong nội thành TP.HCM.",
+        "Các trường hợp khác cần nhân viên xác nhận phí, chưa có thời gian giao cam kết."
+      ],
+      "conditions": {
+        "region": "nội thành TP.HCM",
+        "min_order_vnd": 300000
+      },
+      "approved": true,
+      "version": "demo-1",
+      "source": "DEMO-POLICY",
+      "owner": "Demo fixture",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_to": null
+    },
+    {
+      "id": "FAQ-RETURN",
+      "question": "Đổi trả sản phẩm",
+      "aliases": [
+        "đổi trả",
+        "đổi hàng",
+        "hoàn tiền"
+      ],
+      "answer": [
+        "Chính sách DEMO: tiếp nhận yêu cầu đổi hàng lỗi do nhà sản xuất",
+        "trong 48 giờ sau nhận hàng, khi còn bao bì và bằng chứng mua hàng.",
+        "Nhân viên kiểm tra trước khi xác nhận; không tự động duyệt hoàn tiền."
+      ],
+      "conditions": {},
+      "approved": true,
+      "version": "demo-1",
+      "source": "DEMO-POLICY",
+      "owner": "Demo fixture",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_to": null
+    },
+    {
+      "id": "FAQ-STORAGE",
+      "question": "Bảo quản bánh kẹo",
+      "aliases": [
+        "bảo quản"
+      ],
+      "answer": [
+        "Chính sách DEMO: bảo quản nơi khô ráo, thoáng mát theo hướng dẫn trên nhãn từng sản phẩm.",
+        "Không suy ra hạn dùng của lô hàng từ mô tả chung."
+      ],
+      "conditions": {},
+      "approved": true,
+      "version": "demo-1",
+      "source": "DEMO-POLICY",
+      "owner": "Demo fixture",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_to": null
+    },
+    {
+      "id": "FAQ-HOURS",
+      "question": "Giờ hỗ trợ",
+      "aliases": [
+        "giờ hỗ trợ",
+        "mở cửa"
+      ],
+      "answer": [
+        "Chính sách DEMO: hàng đợi được lưu trên máy local.",
+        "Chưa có lịch trực hoặc thời gian phản hồi thực tế được shop xác nhận."
+      ],
+      "conditions": {},
+      "approved": true,
+      "version": "demo-1",
+      "source": "DEMO-POLICY",
+      "owner": "Demo fixture",
+      "effective_from": "2026-01-01T00:00:00+00:00",
+      "effective_to": null
+    }
+  ]
+}

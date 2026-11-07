@@ -1,0 +1,29 @@
+{
+  "desktop": {
+    "chat_input_in_view": true,
+    "horizontal_overflow": false,
+    "products_left_of_assistant": true,
+    "sidebar_left": 0,
+    "viewport": [
+      920,
+      668
+    ]
+  },
+  "mobile": {
+    "viewport": [
+      375,
+      820
+    ],
+    "pageWidth": 375,
+    "assistant_before_catalog": true,
+    "chat_input_in_view": true,
+    "sidebar_collapsible": true
+  },
+  "actions": {
+    "product_details_opened": true,
+    "assistant_recommendations_returned": [
+      "BK-004",
+      "BK-001"
+    ]
+  }
+}

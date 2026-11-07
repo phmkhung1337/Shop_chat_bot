@@ -1,0 +1,509 @@
+{
+  "demo": true,
+  "approved": true,
+  "version": "demo-catalog-1",
+  "as_of": "2026-11-05T03:00:00+00:00",
+  "max_age_hours": {
+    "price": 24,
+    "stock": 24,
+    "ingredients": 720
+  },
+  "products": [
+    {
+      "id": "BK-001",
+      "name": "Bánh yến mạch nguyên bản",
+      "aliases": [
+        "Bánh yến mạch nguyên bản",
+        "BK-001"
+      ],
+      "category": "Bánh",
+      "brand": "Mộc",
+      "flavor": "Nguyên bản",
+      "description": "Bánh yến mạch nguyên bản với vị nguyên bản, quy cách hộp 180 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 180 g",
+      "unit": "hộp",
+      "price_vnd": 65000,
+      "stock_qty": 24,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Yến mạch, bột mì, dầu thực vật, đường. Nhãn demo xác minh không có sữa, đậu phộng hoặc trứng.",
+        "source": "DEMO-LABEL-BK-001",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "absent",
+          "gluten": "present",
+          "egg": "absent"
+        }
+      }
+    },
+    {
+      "id": "BK-002",
+      "name": "Bánh quy bơ sữa",
+      "aliases": [
+        "Bánh quy bơ sữa",
+        "BK-002"
+      ],
+      "category": "Bánh",
+      "brand": "Lumi",
+      "flavor": "Bơ sữa",
+      "description": "Bánh quy bơ sữa với vị bơ sữa, quy cách hộp thiếc 250 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp thiếc 250 g",
+      "unit": "hộp",
+      "price_vnd": 95000,
+      "stock_qty": 18,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Bột mì, bơ sữa, trứng, đường. Có thể chứa đậu phộng do dùng chung dây chuyền.",
+        "source": "DEMO-LABEL-BK-002",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "present",
+          "peanut": "may_contain",
+          "gluten": "present",
+          "egg": "present"
+        }
+      }
+    },
+    {
+      "id": "BK-003",
+      "name": "Bánh gạo rong biển",
+      "aliases": [
+        "Bánh gạo rong biển",
+        "BK-003"
+      ],
+      "category": "Bánh",
+      "brand": "Nếp",
+      "flavor": "Rong biển",
+      "description": "Bánh gạo rong biển với vị rong biển, quy cách gói 100 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "gói 100 g",
+      "unit": "gói",
+      "price_vnd": 35000,
+      "stock_qty": 40,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Gạo, rong biển, dầu thực vật, muối. Nhãn demo xác minh không có sữa, đậu phộng, gluten hoặc trứng.",
+        "source": "DEMO-LABEL-BK-003",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "absent",
+          "gluten": "absent",
+          "egg": "absent"
+        }
+      }
+    },
+    {
+      "id": "BK-004",
+      "name": "Bánh quy cacao",
+      "aliases": [
+        "Bánh quy cacao",
+        "BK-004"
+      ],
+      "category": "Bánh",
+      "brand": "Mộc",
+      "flavor": "Cacao",
+      "description": "Bánh quy cacao với vị cacao, quy cách hộp 150 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 150 g",
+      "unit": "hộp",
+      "price_vnd": 49000,
+      "stock_qty": 15,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Bột mì, cacao, dầu thực vật, đường. Nhãn demo xác minh không có sữa, đậu phộng hoặc trứng.",
+        "source": "DEMO-LABEL-BK-004",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "absent",
+          "gluten": "present",
+          "egg": "absent"
+        }
+      }
+    },
+    {
+      "id": "BK-005",
+      "name": "Bánh dâu mềm",
+      "aliases": [
+        "Bánh dâu mềm",
+        "BK-005"
+      ],
+      "category": "Bánh",
+      "brand": "Lumi",
+      "flavor": "Dâu",
+      "description": "Bánh dâu mềm với vị dâu, quy cách hộp 200 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 200 g",
+      "unit": "hộp",
+      "price_vnd": 78000,
+      "stock_qty": 12,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Bột mì, sữa, trứng, nhân dâu. Chưa xác minh thông tin đậu phộng.",
+        "source": "DEMO-LABEL-BK-005",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "present",
+          "peanut": "unknown",
+          "gluten": "present",
+          "egg": "present"
+        }
+      }
+    },
+    {
+      "id": "BK-006",
+      "name": "Bánh matcha trà xanh",
+      "aliases": [
+        "Bánh matcha trà xanh",
+        "BK-006"
+      ],
+      "category": "Bánh",
+      "brand": "Mộc",
+      "flavor": "Matcha",
+      "description": "Bánh matcha trà xanh với vị matcha, quy cách hộp 160 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 160 g",
+      "unit": "hộp",
+      "price_vnd": 89000,
+      "stock_qty": 0,
+      "availability": "out_of_stock",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Bột mì, matcha, dầu thực vật, đường. Nhãn demo xác minh không có sữa, đậu phộng hoặc trứng.",
+        "source": "DEMO-LABEL-BK-006",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "absent",
+          "gluten": "present",
+          "egg": "absent"
+        }
+      }
+    },
+    {
+      "id": "KE-001",
+      "name": "Kẹo dẻo trái cây",
+      "aliases": [
+        "Kẹo dẻo trái cây",
+        "KE-001"
+      ],
+      "category": "Kẹo",
+      "brand": "Lumi",
+      "flavor": "Trái cây",
+      "description": "Kẹo dẻo trái cây với vị trái cây, quy cách túi 120 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "túi 120 g",
+      "unit": "túi",
+      "price_vnd": 42000,
+      "stock_qty": 30,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Đường, siro, gelatin, hương trái cây. Nhãn demo xác minh không có sữa, đậu phộng, gluten hoặc trứng.",
+        "source": "DEMO-LABEL-KE-001",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "absent",
+          "gluten": "absent",
+          "egg": "absent"
+        }
+      }
+    },
+    {
+      "id": "KE-002",
+      "name": "Kẹo bạc hà mát lạnh",
+      "aliases": [
+        "Kẹo bạc hà mát lạnh",
+        "KE-002"
+      ],
+      "category": "Kẹo",
+      "brand": "Mộc",
+      "flavor": "Bạc hà",
+      "description": "Kẹo bạc hà mát lạnh với vị bạc hà, quy cách hũ 80 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hũ 80 g",
+      "unit": "hũ",
+      "price_vnd": 29000,
+      "stock_qty": null,
+      "availability": "unknown",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Đường, tinh dầu bạc hà. Chưa xác minh thông tin đậu phộng.",
+        "source": "DEMO-LABEL-KE-002",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "unknown",
+          "gluten": "absent",
+          "egg": "absent"
+        }
+      }
+    },
+    {
+      "id": "SC-001",
+      "name": "Chocolate đen 70%",
+      "aliases": [
+        "Chocolate đen 70%",
+        "SC-001"
+      ],
+      "category": "Chocolate",
+      "brand": "Cacao Lab",
+      "flavor": "Cacao",
+      "description": "Chocolate đen 70% với vị cacao, quy cách hộp 100 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 100 g",
+      "unit": "hộp",
+      "price_vnd": 115000,
+      "stock_qty": 10,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Cacao, bơ cacao, đường. Có thể chứa sữa và đậu phộng do dùng chung dây chuyền.",
+        "source": "DEMO-LABEL-SC-001",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "may_contain",
+          "peanut": "may_contain",
+          "gluten": "unknown",
+          "egg": "unknown"
+        }
+      }
+    },
+    {
+      "id": "SC-002",
+      "name": "Chocolate hạnh nhân",
+      "aliases": [
+        "Chocolate hạnh nhân",
+        "SC-002"
+      ],
+      "category": "Chocolate",
+      "brand": "Cacao Lab",
+      "flavor": "Hạnh nhân",
+      "description": "Chocolate hạnh nhân với vị hạnh nhân, quy cách hộp 120 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 120 g",
+      "unit": "hộp",
+      "price_vnd": 145000,
+      "stock_qty": 8,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Cacao, sữa, hạnh nhân. Có thể chứa đậu phộng.",
+        "source": "DEMO-LABEL-SC-002",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "present",
+          "peanut": "may_contain",
+          "tree_nuts": "present"
+        }
+      }
+    },
+    {
+      "id": "BK-007",
+      "name": "Bánh quy dừa giòn",
+      "aliases": [
+        "Bánh quy dừa giòn",
+        "BK-007"
+      ],
+      "category": "Bánh",
+      "brand": "Nếp",
+      "flavor": "Dừa",
+      "description": "Bánh quy dừa giòn với vị dừa, quy cách hộp 200 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 200 g",
+      "unit": "hộp",
+      "price_vnd": 72000,
+      "stock_qty": 16,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Bột mì, dừa, đường. Thông tin nhãn demo đã cũ, cần xác minh lại.",
+        "source": "DEMO-LABEL-BK-007",
+        "verified_at": "2026-09-01T00:00:00+00:00",
+        "allergens": {
+          "milk": "absent",
+          "peanut": "unknown",
+          "gluten": "present",
+          "egg": "unknown"
+        }
+      }
+    },
+    {
+      "id": "BK-008",
+      "name": "Bánh hạt cao cấp",
+      "aliases": [
+        "Bánh hạt cao cấp",
+        "BK-008"
+      ],
+      "category": "Bánh",
+      "brand": "Mộc",
+      "flavor": "Hạt tổng hợp",
+      "description": "Bánh hạt cao cấp với vị hạt tổng hợp, quy cách hộp 300 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 300 g",
+      "unit": "hộp",
+      "price_vnd": 189000,
+      "stock_qty": 6,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Bột mì, đậu phộng, hạt điều, đường. Chưa xác minh sữa và trứng.",
+        "source": "DEMO-LABEL-BK-008",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "unknown",
+          "peanut": "present",
+          "tree_nuts": "present",
+          "egg": "unknown"
+        }
+      }
+    },
+    {
+      "id": "BK-009",
+      "name": "Bánh gạo ngọt phiên bản cũ",
+      "aliases": [
+        "Bánh gạo ngọt phiên bản cũ",
+        "BK-009"
+      ],
+      "category": "Bánh",
+      "brand": "Nếp",
+      "flavor": "Ngọt",
+      "description": "Bánh gạo ngọt phiên bản cũ với vị ngọt, quy cách gói 100 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "gói 100 g",
+      "unit": "gói",
+      "price_vnd": 30000,
+      "stock_qty": 0,
+      "availability": "out_of_stock",
+      "status": "discontinued",
+      "price_updated_at": "2026-11-05T03:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Chưa có nhãn thành phần được duyệt.",
+        "source": "DEMO-LABEL-BK-009",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {}
+      }
+    },
+    {
+      "id": "BK-010",
+      "name": "Bánh mè nguyên bản",
+      "aliases": [
+        "Bánh mè nguyên bản",
+        "BK-010"
+      ],
+      "category": "Bánh",
+      "brand": "Nếp",
+      "flavor": "Mè",
+      "description": "Bánh mè nguyên bản với vị mè, quy cách hộp 150 g. Sản phẩm giả lập để thử tư vấn; không phải hàng đang bán.",
+      "packaging": "hộp 150 g",
+      "unit": "hộp",
+      "price_vnd": 55000,
+      "stock_qty": 10,
+      "availability": "available",
+      "status": "active",
+      "price_updated_at": "2026-09-01T00:00:00+00:00",
+      "stock_updated_at": "2026-11-05T03:00:00+00:00",
+      "source": "DEMO-CATALOG",
+      "version": "demo-1",
+      "url": null,
+      "storage": "Để nơi khô ráo, thoáng mát theo nhãn demo.",
+      "expiry": null,
+      "ingredients": {
+        "label": "Mè, bột mì, đường. Chưa xác minh các cảnh báo thành phần khác.",
+        "source": "DEMO-LABEL-BK-010",
+        "verified_at": "2026-11-05T03:00:00+00:00",
+        "allergens": {
+          "milk": "unknown",
+          "peanut": "unknown"
+        }
+      }
+    }
+  ]
+}

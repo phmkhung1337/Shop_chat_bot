@@ -1,0 +1,37 @@
+Đang dùng index có sẵn: 204 chunks.
+Đang nạp model embedding local: intfloat/multilingual-e5-small
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  18%|█▊        | 35/199 [00:00<00:00, 296.56it/s]
+Loading weights:  73%|███████▎  | 145/199 [00:00<00:00, 736.34it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 894.46it/s]
+2026-11-06 01:07:18.937 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-06 01:07:20.633 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+{
+  "database": "sqlserver://ILMOON/ShopChatbotDemo",
+  "products": 200,
+  "faqs": 4,
+  "stock_min": 2,
+  "stock_max": 999,
+  "stock_persisted_after_reload": true,
+  "ssms_script_preserved_existing_data": true,
+  "original_rag_records": 204,
+  "retrieval_sources": [
+    "sql:products/DEMO-187",
+    "sql:products/DEMO-184",
+    "sql:products/DEMO-154",
+    "sql:products/DEMO-159",
+    "sql:products/DEMO-044",
+    "sql:products/DEMO-166",
+    "sql:products/DEMO-135",
+    "sql:products/DEMO-177",
+    "sql:products/DEMO-168",
+    "sql:products/DEMO-049",
+    "sql:products/DEMO-170",
+    "sql:products/DEMO-106"
+  ],
+  "customer_ui_pagination": true,
+  "search_last_sku": true,
+  "staff_ui": true,
+  "paid_model_calls": 0
+}

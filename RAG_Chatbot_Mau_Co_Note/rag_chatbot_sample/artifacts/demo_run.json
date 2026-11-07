@@ -1,0 +1,26 @@
+{
+  "mode": "demo",
+  "status": "passed",
+  "initial_product_ids": [
+    "BK-004",
+    "BK-001"
+  ],
+  "cheaper_product_ids": [
+    "BK-004"
+  ],
+  "retained_criteria": {
+    "avoid_allergens": [
+      "milk"
+    ],
+    "budget_inclusive": false,
+    "budget_scope": "unit",
+    "budget_vnd": 65000,
+    "category": "Bánh",
+    "packaging": "hộp",
+    "requested_id": "BK-001"
+  },
+  "ticket_id": "HT-8613DEA672",
+  "queue_status": "recorded_local",
+  "database": "G:\\AI-Coding\\RAG_Chatbot_Mau_Co_Note (2)\\RAG_Chatbot_Mau_Co_Note\\rag_chatbot_sample\\shop_demo.sqlite3",
+  "staff_page_rendered": true
+}

@@ -1,0 +1,203 @@
+{
+  "database": "sqlserver://ILMOON/ShopChatbotDemo",
+  "model": "gpt-oss:20b",
+  "messages": [
+    {
+      "question": "Chào bạn, bạn có thể giúp mình những gì?",
+      "result": {
+        "request_id": "chat_399e5ac046934377bf1ec7a13300cbde_0",
+        "status": "answered",
+        "publish": true,
+        "reply": "Chào bạn! Mình là trợ lý của cửa hàng Mộc, Bạn cần giúp gì hôm nay?",
+        "product_ids": [],
+        "source_ids": [],
+        "ticket_id": null,
+        "reason": null,
+        "products": [],
+        "parts": [],
+        "criteria": {},
+        "support_status": "none",
+        "model_calls": 2,
+        "checked_product_ids": [],
+        "response_origin": "llm",
+        "data_version": "demo-sql-200-v1 / demo-faq-1",
+        "demo": true,
+        "checked_at": "2026-11-05T03:00:00+00:00",
+        "takeover": false,
+        "state_version": 1
+      }
+    },
+    {
+      "question": "Mình muốn biết giá và số lượng còn của DEMO-187.",
+      "result": {
+        "request_id": "chat_399e5ac046934377bf1ec7a13300cbde_1",
+        "status": "answered",
+        "publish": true,
+        "reply": "Sản phẩm Kẹo gianduja có giá 108.000 ₫/hộp và còn 550 hộp theo snapshot.",
+        "product_ids": [
+          "DEMO-187"
+        ],
+        "source_ids": [
+          "DEMO-187@demo-content-1"
+        ],
+        "ticket_id": null,
+        "reason": null,
+        "products": [
+          {
+            "id": "DEMO-187",
+            "name": "Kẹo gianduja",
+            "category": "Chocolate",
+            "brand": "Mộc Demo",
+            "flavor": "Nguyên bản",
+            "description": "Kẹo gianduja, thuộc nhóm Kẹo socola và hạt phủ. Bản ghi minh họa cho tìm kiếm bánh kẹo trong SQL; chưa đại diện sản phẩm của hãng hoặc hàng đang bán. Thành phần, hạn dùng và hướng dẫn bảo quản cần xác minh từ nhãn thật.",
+            "packaging": "hộp 100 g",
+            "unit": "hộp",
+            "price_vnd": 108000,
+            "stock_qty": 550,
+            "availability": "available",
+            "status": "active",
+            "price_updated_at": "2026-11-05T03:00:00Z",
+            "stock_updated_at": "2026-11-05T03:00:00Z",
+            "source": "DEMO-SQL-200",
+            "version": "demo-content-1",
+            "url": null,
+            "storage": null,
+            "expiry": null,
+            "aliases": [
+              "Kẹo gianduja",
+              "DEMO-187"
+            ],
+            "ingredients": {
+              "label": null,
+              "source": null,
+              "verified_at": null,
+              "allergens": {
+                "milk": "unknown",
+                "peanut": "unknown",
+                "tree_nuts": "unknown",
+                "gluten": "unknown",
+                "egg": "unknown",
+                "soy": "unknown"
+              },
+              "verified_absent": []
+            },
+            "verified": true,
+            "uncertainties": [],
+            "not_suitable": [],
+            "direct": true,
+            "checked_at": "2026-11-05T03:00:00+00:00",
+            "snapshot_version": "demo-sql-200-v1 / demo-faq-1"
+          }
+        ],
+        "parts": [
+          {
+            "kind": "product",
+            "status": "answered",
+            "reply": "Kẹo gianduja · DEMO-187\n\nGiá 108.000 ₫/hộp. Có hàng theo snapshot; đây không phải tồn kho trực tiếp."
+          }
+        ],
+        "criteria": {
+          "requested_id": "DEMO-187"
+        },
+        "support_status": "none",
+        "model_calls": 2,
+        "checked_product_ids": [
+          "DEMO-187"
+        ],
+        "response_origin": "llm",
+        "data_version": "demo-sql-200-v1 / demo-faq-1",
+        "demo": true,
+        "checked_at": "2026-11-05T03:00:00+00:00",
+        "takeover": false,
+        "state_version": 2
+      }
+    },
+    {
+      "question": "Cảm ơn, mình mua để tặng đồng nghiệp, bạn có thể nói thêm về món vừa hỏi không?",
+      "result": {
+        "request_id": "chat_399e5ac046934377bf1ec7a13300cbde_2",
+        "status": "answered",
+        "publish": true,
+        "reply": "Đây là Kẹo gianduja, có giá 108.000 ₫/hộp và còn 550 hộp theo snapshot. Đóng gói trong hộp 100 g. Thành phần chưa xác minh.",
+        "product_ids": [
+          "DEMO-187"
+        ],
+        "source_ids": [
+          "DEMO-187@demo-content-1"
+        ],
+        "ticket_id": null,
+        "reason": null,
+        "products": [
+          {
+            "id": "DEMO-187",
+            "name": "Kẹo gianduja",
+            "category": "Chocolate",
+            "brand": "Mộc Demo",
+            "flavor": "Nguyên bản",
+            "description": "Kẹo gianduja, thuộc nhóm Kẹo socola và hạt phủ. Bản ghi minh họa cho tìm kiếm bánh kẹo trong SQL; chưa đại diện sản phẩm của hãng hoặc hàng đang bán. Thành phần, hạn dùng và hướng dẫn bảo quản cần xác minh từ nhãn thật.",
+            "packaging": "hộp 100 g",
+            "unit": "hộp",
+            "price_vnd": 108000,
+            "stock_qty": 550,
+            "availability": "available",
+            "status": "active",
+            "price_updated_at": "2026-11-05T03:00:00Z",
+            "stock_updated_at": "2026-11-05T03:00:00Z",
+            "source": "DEMO-SQL-200",
+            "version": "demo-content-1",
+            "url": null,
+            "storage": null,
+            "expiry": null,
+            "aliases": [
+              "Kẹo gianduja",
+              "DEMO-187"
+            ],
+            "ingredients": {
+              "label": null,
+              "source": null,
+              "verified_at": null,
+              "allergens": {
+                "milk": "unknown",
+                "peanut": "unknown",
+                "tree_nuts": "unknown",
+                "gluten": "unknown",
+                "egg": "unknown",
+                "soy": "unknown"
+              },
+              "verified_absent": []
+            },
+            "verified": true,
+            "uncertainties": [],
+            "not_suitable": [],
+            "direct": true,
+            "checked_at": "2026-11-05T03:00:00+00:00",
+            "snapshot_version": "demo-sql-200-v1 / demo-faq-1"
+          }
+        ],
+        "parts": [
+          {
+            "kind": "product",
+            "status": "answered",
+            "reply": "Kẹo gianduja · DEMO-187\n\nGiá 108.000 ₫/hộp. Có hàng theo snapshot; đây không phải tồn kho trực tiếp."
+          }
+        ],
+        "criteria": {
+          "requested_id": "DEMO-187"
+        },
+        "support_status": "none",
+        "model_calls": 2,
+        "checked_product_ids": [
+          "DEMO-187"
+        ],
+        "response_origin": "llm",
+        "data_version": "demo-sql-200-v1 / demo-faq-1",
+        "demo": true,
+        "checked_at": "2026-11-05T03:00:00+00:00",
+        "takeover": false,
+        "state_version": 3
+      }
+    }
+  ],
+  "duplicate_request_reused": true,
+  "history_messages": 6
+}

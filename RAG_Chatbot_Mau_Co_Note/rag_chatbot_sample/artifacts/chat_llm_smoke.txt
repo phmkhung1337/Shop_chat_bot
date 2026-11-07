@@ -1,0 +1,9 @@
+SYNTHETIC MODEL RESPONSE: {"intent":"conversation","changes":{},"evidence":{},"faq":false,"product":false,"cheaper":false,"question":null}
+SYNTHETIC MODEL RESPONSE: {"reply":"Chào bạn! Mình là trợ lý của cửa hàng Mộc, Mình có thể giúp gì cho bạn?","source_ids":[]}
+{"question": "Chào bạn, bạn có thể giúp mình những gì?", "status": "answered", "reply": "Chào bạn! Mình là trợ lý của cửa hàng Mộc, Mình có thể giúp gì cho bạn?", "origin": "llm", "calls": 2}
+SYNTHETIC MODEL RESPONSE: {"intent":"product_fact","changes":{},"evidence":{},"faq":false,"product":false,"cheaper":false,"question":null}
+SYNTHETIC MODEL RESPONSE: {"reply":"Sản phẩm {{DEMO-187.name}} có giá {{DEMO-187.price}} và còn {{DEMO-187.stock}}.","source_ids":["DEMO-187@demo-content-1"]}
+{"question": "Mình muốn biết giá và số lượng còn của DEMO-187.", "status": "answered", "reply": "Sản phẩm Kẹo gianduja có giá 108.000 ₫/hộp và còn 550 hộp theo snapshot.", "origin": "llm", "calls": 2}
+SYNTHETIC MODEL RESPONSE: {"intent":"product_fact","changes":{"requested_id":"DEMO-187"},"evidence":{"requested_id":"món vừa hỏi"},"faq":false,"product":true,"cheaper":false,"question":null}
+SYNTHETIC MODEL RESPONSE: {"reply":"Đây là {{DEMO-187.name}}, có giá {{DEMO-187.price}} và còn {{DEMO-187.stock}}. Đóng gói trong {{DEMO-187.packaging}}. Thành phần chưa xác minh.","source_ids":["DEMO-187@demo-content-1"]}
+{"question": "Cảm ơn, mình mua để tặng đồng nghiệp, bạn có thể nói thêm về món vừa hỏi không?", "status": "answered", "reply": "Đây là Kẹo gianduja, có giá 108.000 ₫/hộp và còn 550 hộp theo snapshot. Đóng gói trong hộp 100 g. Thành phần chưa xác minh.", "origin": "llm", "calls": 2}
